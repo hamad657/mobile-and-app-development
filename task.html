@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration form</title>
+</head>
+<style>
+    form{
+        text-align: center;
+        background-color:rgb(179, 219, 233);
+        margin: auto;
+        border: 1px solid rgba(255, 255,255, 0.3);
+        border-radius: 10px;
+        width: 40%;
+        padding: 20px;
+    }
+    .forms input{
+      padding: 10px;
+      width: 40%;
+      border: 10px 10px 10px;
+      background-color: rgb(218, 214, 214);
+    }
+    #sub input{
+        padding: 10px;
+        width: 150px;
+        background-color:rgb(132, 132, 207);
+    }
+    .forms label{
+       word-spacing: 5px;
+    }
+</style>
+<body>
+    <form>
+        <h2 style="text-align: center; text-shadow:2px 2px 15px;"> REGISTRATION FORM</h2>
+        <div class="forms">
+            <label>ENTER YOUR NAME</label>
+            <br>
+            <input type="enter your name">
+        </div>
+        <br>
+        <div class="forms">
+            <label>ENTER YOUR EMAIL</label>
+            <br>
+            <input type="enter your email">
+        </div>
+        <br>
+        <div class="forms">
+            <label>ENTER YOUR PASSWORD</label>
+            <br>
+            <input type="enter your password">
+        </div>
+        <br>
+        <div>
+           <label>gender</label>
+           <br>
+            <input type="radio">female
+            <input type="radio">male
+        </div>
+        <br>
+        <div>
+             <label  style="word-spacing: 5px;">SELECT YOUR COUNTRY</label>
+             <br>
+             <select style="width: 43%; padding: 10px; background-color: rgb(218, 214, 214) ;">
+                <option>USA</option>
+                <option>turkey</option>
+                <option>UK</option>
+             </select>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox">
+            <label>I agree to the theme and candidates</label>
+        </div>
+        <br>
+        <div id="sub">
+            <input type="SUBMIT">
+        </div>
+    </form>
+    
+</body>
+</html>
