@@ -3,24 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>task</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0% auto;
+            padding: 0% auto;
+            box-sizing: border-box;
+        }
+        form{
+            /* border: 2px solid black; */
+            border: none;
+            border-radius: 20px;
+            background-color: rgb(245, 242, 242);
+            box-shadow: 8px 8px 8px rgb(239, 237, 237);
+            margin-left: 40%;
+            padding: 20px;
+            margin-right: 40%;
+            margin-top: 20px;
+            justify-content: center;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div{
+            /* border: 1px solid red; */
+            width: 40%;
+            margin: 30px;
+            background-color: orange;
+            margin-left: 30%;
+            /* margin-right: 10%; */
+            padding: 8%;
+            border-radius:43%;
+            height: 13vh;
+        }
+        i{
+            /* justify-content: center; */
+            /* text-align: center; */
+            /* align-items: center; */
+            font-size:40px;
+            color: white;
+            /* margin-right: 10%; */
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        label{
+            margin-right: 58%;
+            font-weight: 600;
+        }
+        input{
+            border: none;
+            border-radius:60px;
+            width: 80%;
+            padding: 10px;
+            height: 6vh;
+            background-color: burlywood;
+        }
+        .pass{
+            margin-left: 10%;
+        }
+        button{
+            width: 35%;
+            height: 7vh;
+            border-radius: 10px;
+            border: none;
+            padding: 8px;
+            background-color: orange;
+            color: white;
+        }
+    </style>
 </head>
-<style>
-    body{
-        text-align: center;
-    }
-</style>
 <body>
-    <p style="background-color: rgb(93, 11, 11);color: rgb(218, 9, 9); text-shadow: 2px 2px 10px;text-align: center;padding: 5px 10px 20px;word-spacing: 10px;letter-spacing: 10px;"><b>Image No 01</b></p>
-    <br>
-    <img src="./flower.jpg" alt="flower" width="100px" height="100px">
-    <br>
-    <h3 style="background-color: rgb(43, 17, 86);color: rgb(206, 134, 211);text-shadow: 5px 5px 10px;text-align: center;padding: 5px 10px 10px;word-spacing: 20px;">IMAGE NO 02</h3>
-    <br>
-    <img src="./butterfly.jpg" alt="butterfly" width="100px" height="100px">
-    <br>
-    <h3 style="background-color:rgb(139, 102, 54);color: rgb(201, 190, 91);text-shadow: 5px 5px 10px;text-align: center;padding: 4px 5px 5px; word-spacing: 5px;">image no 03</h3>
-    <br>
-    <img src="./sun.jpg" alt="sun" width="100px" height="100px">
+    <form>
+        <div>
+            <i class="fa-solid fa-cloud"></i>
+        </div>
+        <h1>Online <br> Registration</h1>
+        <br>
+        <label>Name</label> <br>
+        <input type="text">
+        <br>
+        <br>
+        <label>Email</label> <br>
+        <input type="email">
+        <br> <br>
+        <label class="pass">Password</label> <br>
+        <input type="password">
+        <br> <br>
+        <button><b>Register <br> Now</b></button>
+    </form>
 </body>
 </html>
