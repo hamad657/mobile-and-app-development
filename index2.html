@@ -1,44 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>class no 01</title>
+    <title>Document</title>
+
 </head>
+<style>
+    .mystyle {
+        background-color: red;
+        border: 1px solid black;
+        padding: 10px;
+    }
+</style>
+
 <body>
-    <p><strong>Ordered Lists</strong> &nbsp- Ordering <i>does</i> matter.</p>
-    <ol>
-        <li>Things to Do When i Get UP</li>
-        <ol>
-            <li>Put The Kettle On </li>
-            <li>Put The Teabag in The Cup</li>
-            <li>Wait For Kettle To Boil</li>
-            <li>Pour Boiling Water In The Cup</li>
-        </ol>
-        <li>Things To Do When I Go To Bed</li>
-        <ol>
-            <li>Tuen Stuff Off</li>
-            <li>Put The Car Out</li>
-            <li>Lock The Doors</li>
-            <li>Brush My Teeth</li>
-        </ol>
-    </ol>
-    <p><strong>Unordered Lists</strong>&nbsp - Ordering <i>doesn't</i>matter</p>
-    <ul>
-        <li>Shopping List</li>
-        <ul>
-            <li>Tin Of Tomatos</li>
-            <li>Bacon</li>
-            <li>Loaf Of Bread</li>
-            <li>Mushrooms</li>
-            <li>Party Guest List</li>
-            <ul>
-                <li>Bruce Wayne</li>
-                <li>Peter Parker</li>
-                <li>Emily Bronte</li>
-                <li>Alma Walcott</li>
-            </ul>
-        </ul>
-    </ul>
+    <div class="container">
+    </div>
+    <!-- <button onclick="styling()">CLick me</button>
+    <div id="demo">
+        <h1>Hello</h1>
+    </div> -->
+
+    <script>
+        const product = [
+            {
+                id: 1,
+                name: "product no 01"
+            },
+            {
+                id: 2,
+                name: "product no 02"
+            },
+            {
+                id: 3,
+                name: "product no 03"
+            }
+        ]
+        let cardContainer = document.getElementsByClassName("container")[0]
+        console.log(cardContainer)
+        product.map((product) => {
+
+            const card = document.createElement("div");
+            card.innerHTML = `
+            <h1>Id:${product.id}</h1>
+            <h1>${product.name}</h1>
+
+            `
+            card.style.backgroundColor = 'purple'
+            card.style.padding = '10px'
+            card.style.marginTop = '10px'
+
+            cardContainer.appendChild(card);
+
+        })
+
+    //     function styling() {
+    //         var element = document.getElementById("demo");
+    //         element.classList.add("mystyle");
+    //     }
+    //     const array = [1, 2, 3, 4, 5]
+    //     const newArray = array.map((value, index) => {
+    //         return value + 1
+    //     })
+    //     console.log(newArray)
+    //     console.log(array)
+
+    //     const float_no = 40.55
+    //    const Data =  Math.round(float_no);
+    //    console.log(Data)
+
+
+    </script>
 </body>
+
 </html>

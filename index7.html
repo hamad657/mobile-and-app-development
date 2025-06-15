@@ -1,41 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>task no 06</title>
+    <title>Document</title>
 </head>
-<style>
-   div{
-        border: 1px solid black;
-        margin-right: 300px;
-        margin-left: 200px;
-        padding: 50px;
-        margin-top: 100px;
-        background-color: blue;
-        color: white;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   }
-    button{
-        color: white;
-        background-color: blue;
-        height: 50px;
-        width: 220px;
-        border-right: 6px solid white;
-        border-bottom: 6px solid white;
-        border-left: 1px solid white;
-        border-top: 1px solid white;
-        /* padding-bottom: 10px; */
-    }
-    
-</style>
+
 <body>
-    <div id="container">
-    <p>Feature Post</p>
-    <h1>The role <br> of &nbsp Webflow <br>Developer</h1>
-    <p> <b>Webflow</b>is is the SaaS application that allows designers to build <br>response websites with browser based visual editing software. <br>
-    While designer use the tool,<b>Webflow </b>automatically generates <br> HTML,CSS and Javascript.</p>
-    <button><b>READ FULL ARTICLE</b></button>
-    </div>
+    <script>
+        //  const person = {}
+        //  console.log(person)
+        //  person.name = "noor"
+        //  console.log(person["name"])
+        // console.log(this)
+        // const username = prompt("Enter you name")
+        // console.log(username)
+        const person = {
+            "firstName": "John",
+            lastName: "Doe",
+            id: 5566,
+            fullName: function () {
+                return (person.firstName  + person.lastName)
+            }
+        };
+        console.log(person.firstName)
+        console.log(person.lastName)
+        console.log(person.id)
+        console.log(person.fullName())
+        console.log(this)
+        alert('hello')
+
+
+    </script>
+
 </body>
+
 </html>

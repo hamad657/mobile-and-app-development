@@ -1,44 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>task no 1</title>
+    <title>Document</title>
 </head>
+
 <body>
-    <h1 style="color: rgb(19, 19, 112);">Amna</h1>
-    <h3>Web Developer &nbsp|&nbsp Full-Stack Enthausiat</h3>
-    <img src="./classno02/doll.jpg" alt="doll" height="130px" width="190px">
-    <p>Hello!My name is amna,and i am a passionate web developer with a strong interest in building responsive and user-friendly web application.
-        <br> <br>I aim to become a leading full-stack developer and contribute to the tech community by building innovative projects.</p>
-        <a href="./classno02/home.html">Visit my linkedin</a>
-        <br>
-        <a href="./classno02/contact.html">Send me an email</a>
-        <hr>
-        <h2>Skills</h2>
-        <ul>
-            <li>Fronted</li>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-            </ul>
-            <li>Backend</li>
-            <ul>
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>PostgreSQL</li>
-            </ul>
-        </ul>
-        <hr>
-        <h2>Technology Definitions</h2>
-        <dl>
-            <dt>HTML</dt>
-            <dd>A markup language for creating web pages</dd>
-            <dt>CSS</dt>
-            <dd>A styling language for designing web pages</dd>
-            <dt>JavaScript</dt>
-            <dd>A programming language for adding interactive features to web pages</dd>
-        </dl>
+    <div id="card">
+    </div>
+    <script>
+        const numbers1 = ['fatima', 'faisalabad'];
+          const number2 =  numbers1.map((value , index)=>{
+          document.getElementById('card').innerHTML = <h1>${value}</h1>
+        })
+        console.log(numbers1)
+        console.log(number2)
+
+    const data= [10,9,8,7,6,5,4,3,2,1]
+    console.log(data.sort())
+
+       
+        uswa('faisalabad')
+        uswa('Lahore')
+        uswa('Islamabad')
+        let input = "how are you"
+        var words = input.split(" ");
+        
+        for (var i = 0; i < words.length; i++) {
+            words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1)
+        }
+        let join = words.join(" ");
+        console.log(join);
+
+
+
+
+    </script>
 </body>
-</html>

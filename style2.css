@@ -1,0 +1,655 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav {
+    padding: 8px;
+    width: 100%;
+    display: flex;
+    background-color: #FFD4D0;
+}
+
+.first {
+    display: flex;
+}
+
+.spaan {
+    color: black;
+    letter-spacing: -14px;
+
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: red;
+    margin: 9% 0px 0px 115px;
+}
+
+.list {
+    margin: auto;
+}
+
+.list ul li {
+    gap: 10%;
+    display: inline-block;
+    margin: 11% 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+a {
+    color: black;
+}
+
+.butt {
+    margin-top: 2%;
+    margin-right: 5%;
+    width: 7%;
+    padding: 10px;
+    height: 5%;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.hero {
+    background-color: #FFD4D0;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+
+.hero-left {
+    padding: 3%;
+    margin-top: 3%;
+    margin-left: 2%;
+    width: 50%;
+
+}
+
+.para {
+    color: rgb(63, 63, 63);
+    margin: 10px 20px 10px 65px;
+}
+
+.heading {
+    margin-left: 13%;
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.heading-1 {
+    margin-left: 13%;
+    margin-top: 10px;
+    color: red;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.para-1 {
+    color: rgb(107, 107, 107);
+    margin-left: 13%;
+    margin-top: 5%;
+    line-height: 22px;
+}
+
+.buttons {
+    display: flex;
+    margin-left: 13%;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.button-1 {
+    width: 28%;
+    padding: 2%;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.button-2 {
+    width: 28%;
+    padding: 2%;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: 1px solid rgb(77, 76, 76);
+}
+
+.hero-right {
+    padding: 5%;
+    margin-right: 14%;
+    width: 50%;
+}
+
+.hero-right img {
+    margin-right: 15%;
+    width: 143%;
+    height: 70vh;
+}
+
+.second-portion {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 65vh;
+    position: relative;
+}
+
+.second {
+    position: absolute;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.heading-3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.para-2 {
+    text-align: center;
+    margin-top: 20px;
+    line-height: 23px;
+}
+
+.count {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+    gap: 15%;
+}
+
+.firstly strong {
+    font-size: 5rem;
+    color: pink;
+}
+
+.firstly p {
+    color: white;
+    margin-top: 8%;
+    margin-left: 2%;
+    font-weight: bold;
+    font-size: large;
+}
+
+.secondly strong {
+    font-size: 5rem;
+    color: pink;
+    margin-left: 15px;
+}
+
+.secondly p {
+    color: white;
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: large;
+}
+
+.thirdly strong {
+    font-size: 5rem;
+    color: pink;
+}
+
+.thirdly p {
+    color: white;
+    margin-top: 7%;
+    margin-left: 3%;
+    font-weight: bold;
+    font-size: large;
+}
+
+.third-portion {
+    width: 100%;
+}
+
+.third {
+    margin-top: 8%;
+}
+
+.heading-4 {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: -2px;
+}
+
+.para-3 {
+    text-align: center;
+    line-height: 23px;
+    margin-top: 25px;
+    font-size: large;
+    color: rgb(105, 105, 105);
+}
+
+.icons {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    margin-top: 60px;
+    gap: 30px;
+}
+
+.icon-1 {
+    margin-left: 13%;
+    padding: 10px;
+    width: 18vw;
+}
+
+.icon-1 img {
+    width: 50%;
+}
+
+.head-1 {
+    margin-top: -7%;
+    margin-left: 5%;
+}
+
+.para-4 {
+    color: rgb(88, 88, 88);
+    margin-top: 9%;
+    font-size: small;
+    margin-left: 2%;
+    line-height: 18px;
+}
+
+.icon-2 {
+    margin-top: 1%;
+    width: 18vw;
+}
+
+.icon-2 img {
+    width: 40%;
+}
+
+.head-2 {
+    margin-left: 1%;
+}
+
+.para-5 {
+    color: rgb(88, 88, 88);
+    margin-top: 25px;
+    font-size: small;
+    line-height: 18px;
+}
+
+.icon-3 {
+    margin-top: 1%;
+    width: 18vw;
+}
+
+.icon-3 img {
+    width: 30%;
+}
+
+.head-3 {
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+.para-6 {
+    color: rgb(88, 88, 88);
+    margin-top: 20px;
+    font-size: small;
+    line-height: 18px;
+}
+
+.icon-4 {
+    width: 16vw;
+    margin-left: 2%;
+}
+
+.icon-4 img {
+    margin-top: 3%;
+    width: 40%;
+}
+
+.head-4 {
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.para-7 {
+    color: rgb(88, 88, 88);
+    margin-top: 20px;
+    font-size: small;
+    line-height: 18px;
+}
+
+.fourth-portion {
+    background-color: #FFD4D0;
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    margin-top: -5%;
+}
+
+.four {
+    margin-top: 6%;
+    width: 100%;
+    position: absolute;
+}
+
+.fifth-portion {
+    width: 100%;
+    height: 90vh;
+    border-bottom: 1px solid rgb(168, 168, 168);
+}
+
+.cards {
+    background-color: #FFD4D0;
+    width: 100%;
+    display: flex;
+    gap: 60px;
+    height: 20vh;
+}
+
+.card-1{
+    margin-left: 18%;
+}
+.card-1 img{
+    margin-top: 30px;
+    width: 20vw;
+    height: 25vh;
+}
+.card-2 img{
+    margin-top: 30px;
+    width: 20vw;
+    height: 25vh;
+}
+.card-3 img{
+    margin-top: 30px;
+    width:20vw;
+    height: 25vh;
+}
+.head-5{
+    margin-top: 20px;
+}
+.para-8{
+    margin-top: 20px;
+    color: rgb(71, 71, 71);
+}
+.carding{
+    width: 100%;
+    display: flex;
+    gap: 60px;
+    margin-top: 12%;
+}
+.sixth-portion{
+    width: 100%;
+    background-color: #FFD4D0;
+    height: 45vh;
+    position: relative;
+    z-index: -1;
+    border-bottom: 1px solid rgb(209, 207, 207);
+}
+.sixth{
+    width: 100%;
+    margin-top: 60px;
+    position: absolute;
+}
+.heading-5{
+    text-align: center;
+    font-size: 3rem;
+}
+.para-9{
+    color: rgb(71, 71, 71);
+    text-align: center;
+  margin-top: 20px;
+  line-height: 22px;
+}
+.image{
+    display: flex;
+    margin-left: 40%;
+    margin-top: 45px;
+}
+.image img{
+    width: 6%;
+    height: 6%;
+}
+P{
+    color: rgb(71, 71, 71);
+    margin-left: 10px;
+    margin-top: 18px;
+}
+span{
+    color: black;
+    font-weight: bold;
+}
+.seventh-portion{
+    background-color: rgb(240, 248, 252);
+    width: 100%;
+    height: 45vh;
+    position: relative;
+    border-bottom: 1px solid rgb(185, 184, 184);
+}
+.seven{
+    position: absolute;
+    margin-top: 7%;
+    width: 100%;
+}
+.heading-6{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.para-10{
+    text-align: center;
+    line-height: 23px;
+}
+.eight-portion{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    background-color: #FFD4D0;
+}
+.left{
+    width: 50%;
+    height: 80vh;
+    margin-left: 20px;
+}
+.heading-7{
+    margin-left: 15%;
+    margin-top: 12%;
+}
+.para-11{
+    color: rgb(71, 71, 71);
+    margin-left: 15%;
+    line-height: 22px;
+}
+.call{
+    display: flex;
+    width: 30vw;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 110px;
+    height: 10vh;
+}
+.call i{
+    margin-top: 18px;
+}
+.call p{
+    color: rgb(71, 71, 71);
+}
+.email{
+    display: flex;
+    width: 30vw;
+    gap: 10px;
+    margin-top: -15px;
+    margin-left: 105px;
+    height: 10vh;
+}
+.email i{
+    margin-top: 20px;
+}
+.email p{
+    color: rgb(71, 71, 71);
+}
+.location{
+    display: flex;
+    width: 33vw;
+    gap: 10px;
+    margin-top: -15px;
+    margin-left: 105px;
+    height: 10vh;
+}
+.location i{
+    margin-top: 20px;
+}
+.location p{
+    color: rgb(71, 71, 71);
+}
+.ico{
+    display: flex;
+    width: 50vw;
+    height: 30vh;
+    margin-top: 5%;
+    margin-left: 15%;
+    gap: 20px;
+}
+.twitter{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+}
+.twitter i{
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.insta{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+}
+.insta i{
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.youtube{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+}
+.youtube i{
+    margin-top: 8px;
+    margin-left: 7px;
+}
+.facebook{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+}
+.facebook i{
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.right{
+    width: 50%;
+    height: 80vh;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.input-1{
+    width: 70%;
+    padding: 6px;
+    margin-top: 10%;
+    height: 6vh;
+    margin-left: 20px;
+    font-size: small;
+    border: none;
+}
+.input-2{
+    color: rgb(88, 88, 88);
+    border: none;
+    padding: 6px;
+    width: 70%;
+    margin-top: 3%;
+    height: 6vh;
+    margin-left: 20px;
+    font-size: small;
+}
+.input-3{
+    width: 70%;
+    padding: 7px;
+    border: none;
+    margin-top: 3%;
+    height: 6vh;
+    margin-left: 20px;
+    font-size: small;
+}
+textarea{
+    border: none;
+    padding: 6px;
+    width: 70%;
+    margin-left:20px ;
+    margin-top: 20px;
+    height: 20vh;
+}
+.buton{
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 25%;
+    height: 6vh;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+.footer{
+    background-color: #1F1F1F; 
+    height:40vh;
+  }
+.footer ul{
+      padding-top: 4rem;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-left: 25rem;
+      margin-right: 25rem;
+      color:#ffffff;
+  
+  }
+.footer h1 {
+      font-size: 2.5rem;
+     color:#ffffff;
+  }
+.footer h1 span {
+      margin-top: 1rem;
+      color:#FC3314;
+      letter-spacing: -10px;
+  }
+.text{
+      color:#ffffff;
+      text-align: center;
+      margin-top: 4rem;
+      opacity: 0.6;
+  }
+  .text p{
+    color: #797979;
+  }
+.social-media-footer{
+      color:#ffffff;
+      text-align: center;
+      margin-top: 2rem;
+      display: flex;
+  justify-content: space-around;
+  margin-left: 40rem;
+  margin-right: 40rem;
+  font-size: 1.2rem;
+  }
