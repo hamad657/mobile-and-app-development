@@ -1,75 +1,429 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>bootstrap Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 </head>
+
 <body>
-    <p id="demo"></p>
+    <nav class="navbar bg-navy navbar">
+        <div class="container">
+           <div class="d-flex gap-0 ">
+             <img style="border-radius: 30px; margin-left: 12%;" class="mt-2 mx-2" src="./logo.jpg" alt=" logo" width="50px" height="50px "> 
+            <a class="navbar-brand text-white fw-bold mt-2 white">whitepace</a>
+           </div>
+             <div class="d-flex mt-2 first">
+                <div>
+                    <ul class="nav-items text-white gap-3">
+                    <li>Products <i class="fa-solid fa-caret-down"></i></li>
+                    <li>Solution <i class="fa-solid fa-caret-down"></i></li>
+                    <li>Resources <i class="fa-solid fa-caret-down"></i></li>
+                    <li>Pricing <i class="fa-solid fa-caret-down"></i></li>
+                </ul>
+                </div>
+                <div class="d-flex div-button">
+                <button class="but-submit mx-2 text-white bg-warning">Login</button>
+                <button class="bg-primary text-white butt-2">Try whitepace free <i class="fa-solid fa-arrow-right mt-1 mx-1"></i></button>
+                </div>
+             </div>
+          
+        </div>
+    </nav>
+    <div class="container-fluid overflow-hidden text-center div-first">
+        <div class="row gx-5">
+            <div class="col">
+                <div class="p-5 mt-5" id="custom">
+                    <h2 class="text-white fw-bold ">Get More Done with <span class="text-white spaning">whitepace</span>
+                    </h2>
+                    <p class="text-white fw-light para-1">Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit <span class="spaning-1">lorem ipsum olor sit amet.ipsum dolor sit</span></p>
+                    <button class="btn btn-primary button-1 mx-4" type="submit">Try whitepace free <i
+                            class="fa-solid fa-arrow-right mt-1 mx-1"></i></button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-5 mt-4">
+                    <img src="./photo.jpg" alt="first">
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container overflow-hidden text-center mt-2 second">
+        <div class="third">
+            <div class="row gy-5">
+                <div class="col-6 p-2">
+                    <div class="p-3 mt-2">
+                        <h2 class=" fw-bold text-black project"><span class="spann">Project</span><br> <span
+                                class=" mt-3 spaning-2">Management</span> <img class="img-line" src="./line.jpg"
+                                alt="line"></h2>
+                        <p class="para-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam <br> <span
+                                class="spaning-3">aspernatur voluptates autem pariatur magnam itaque quos</span> <br>
+                            <span class="spaning-4">delectus officia error?</span>
+                        </p>
+                        <button class="bg-primary p-2 text-white button-2">Get Started <i
+                                class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="col-6  p-2">
+                    <div class="p-3"><img class="image" src="./circle.jpg" alt="circle"></div>
+                </div>
+            </div>
+            <div class="four d-flex">
+                <div class="col-6  p-2">
+                    <div class="p-3"><img class="image mx-2" src="./circle.jpg" alt="circle"></div>
+                </div>
+                <div class="col-6  p-5  div-third">
+                    <div class="p-3">
+                        <h2 class="fw-bold paragraph"> Work <span class="spanned"> together </span> <img
+                                class="img-line-1" src="./line.jpg" alt="line"></h2>
+                    </div>
+                    <p class="para-left">Lorem ipsum dolor sit amet consectetur adipisicing elit Vol <br> hdgy guptate
+                        error veniam provident, alias sapiente sequi!</p>
+                    <button class=" bg-primary button-3">Try it now <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="fifth d-flex ">
+        <div class="div-left">
+            <h2 class="text-white">Use as Extension</h2>
+            <p class="text-white mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                <br> Labore explicabo alias omnis eaque eligendi adipisci.
+            </p>
+            <button class="bg-primary p-2 text-white button-2">Lets Go <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="div-right">
+            <img class="fish-img" src="./fish.jpg" alt=" fish">
+        </div>
+    </div>
+    <hr>
+    <div class="sixth d-flex ">
+        <div class="div-left">
+            <img src="./second.jpg" alt="second">
+        </div>
+        <div class="div-right">
+            <h2 class="fw-bold heading-3">Customize it to <br> <span class="spaned">your needs</span> <br> <img
+                    class="img-line-3" src="./line.jpg" alt="line"></h2>
+            <p class="para-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic <br> fugiat provident porro
+                natus, error obcaecati maiores <br> distinctio labore quam dolore?</p>
+            <button class="bg-primary p-2 text-white button-5">Lets Go <i
+                    class="fa-solid fa-arrow-right mt-1"></i></button>
+        </div>
+    </div>
+    <hr>
+    <section class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="fw-bold heading-title">Choose <span class="highlight">Your Plan</span> <br> <img
+                    class="img-line-4" src="./line.jpg" alt="line"></h2>
+            <p class="small-text para-5">Whether you want to get organized, keep your personal life, or workplace
+                productivity, <br> Evernote has the right plan for you.</p>
+            <div class="row justify-content-center gap-3 mt-5">
+                <!-- Free Plan -->
+                <div class="col-md-3">
+                    <div class="shadow-sm">
+                        <div class="text-start">
+                            <div class="card-1">
+                                <h6 class="fw-bold mt-2 mx-2">Free</h6>
+                                <h3 class="price-tag mx-2">$0</h3>
+                                <p class="text-muted small-text mx-2">Capture ideas and find them quickly</p>
+                                <ul class="list-unstyled small-text">
+                                    <li>✔ Sync unlimited devices</li>
+                                    <li>✔ 10 GB monthly uploads</li>
+                                    <li>✔ 200 MB max. note size</li>
+                                    <li>✔ Customize Home dashboard</li>
+                                    <li>✔ Connect Google Calendar</li>
+                                    <li>✔ Add reminders to your tasks</li>
+                                </ul>
+                                <button class=" p-1 w-50 mt-3 mx-2 btn-sm text-black button-6">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Personal Plan -->
+                <div class="col-md-3">
+                    <div class="text-white  rounded-4 shadow-lg">
+                        <div class="text-start">
+                            <div class="card-2 p-2">
+                                <h6 class="fw-bold mt-3 mx-2">Personal</h6>
+                                <h3 class="price-tag mx-2">$11.99</h3>
+                                <p class="small-text mx-2">Keep home and family on track</p>
+                                <ul class="list-unstyled small-text">
+                                    <li>✔ Sync unlimited devices</li>
+                                    <li>✔ 10 GB monthly uploads</li>
+                                    <li>✔ 200 MB max. note size</li>
+                                    <li>✔ Customize Home dashboard <br> <span class="mx-4"> access extra widges</span>
+                                    </li>
+                                    <li>✔ Connect Google Calendar <br> <span class="mx-4">account</span> </li>
+                                    <li>✔ Add reminders to your tasks <br> <span class="mx-4">notification to your
+                                            task</span> </li>
+                                </ul>
+                                <button class="btn btn-primary  text-white mx-2 w-50 mt-2 btn-sm">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Organization Plan  -->
+                <div class="col-md-3">
+                    <div class="shadow-sm">
+                        <div class="text-start">
+                            <div class="card-1">
+                                <h6 class="fw-bold mt-2 mx-2">Organization</h6>
+                                <h3 class="price-tag mx-2">$49.99</h3>
+                                <p class="text-muted small-text mx-2">Capture ideas and find them quickly</p>
+                                <ul class="list-unstyled small-text">
+                                    <li>✔ Sync unlimited devices</li>
+                                    <li>✔ 10 GB monthly uploads</li>
+                                    <li>✔ 200 MB max. note size</li>
+                                    <li>✔ Customize Home dashboard</li>
+                                    <li>✔ Connect Google Calendar</li>
+                                    <li>✔ Add reminders to your tasks</li>
+                                </ul>
+                                <button class=" p-1 w-50 mt-3 mx-2 btn-sm text-black button-6">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <div class="hero-section">
+        <div class="background-pattern">
+            <div class="topo-pattern">
+                <div class="topo-line topo-1"></div>
+                <div class="topo-line topo-2"></div>
+                <div class="topo-line topo-3"></div>
+                <div class="topo-line topo-4"></div>
+                <div class="topo-line topo-5"></div>
+                <div class="topo-line topo-6"></div>
+                <div class="topo-line topo-7"></div>
+            </div>
+        </div>
+
+        <div class="container content">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <h1 class="work fw-bold">Your work, everywhere you are</h1>
+                    <p class="mb-4 fw-small mt-4 para-6">
+                        Access your notes from your computer, phone or tablet by synchronising with various services,
+                        including whitepace,and OneDrive. The app is available on Windows, macOS, Linux,
+                        Android and iOS. A terminal app is also available!
+                    </p>
+                    <button class="btn btn-primary mx-2 mt-3">
+                        Try Taskey
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="data-security">
+        <div class="container">
+            <div class="row align-items-center g-0">
+                <div class="col-md-5 py-2">
+                    <h1 class="section-title">100% your data <br> <img class="img-line-5" src="./line.jpg" alt="line">
+                    </h1>
+                    <p class="section-text">
+                        The app is open source and your notes are saved to an open format, so you'll always have access
+                        to them. Uses End-To notes and ensure no-one but
+                        yourself can access them.
+                    </p>
+                    <a href="#" class="btn btn-primary mt-3">Read more →</a>
+                </div>
+                <div class="col-md-7 py-2">
+                    <div class="security-diagram">
+                        <img src="./side image.jpg" alt="Security Diagram" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container mt-5">
+        <!-- Sponsors Section -->
+        <div class="sponsors-section">
+            <div class="sponsors-header">
+                <h1 class="fw-bold">Our <span class="span-1"> sponsors </span><br> <img class="img-line-6"
+                        src="./line.jpg" alt="line"></h1>
+            </div>
+
+            <div class="sponsors-logos">
+                <div class="logo-item">
+                    <img class="apple" src="./apple.jpg" alt="Apple Logo">
+                </div>
+                <div class="logo-item">
+                    <img src="./micro.jpg" alt="Microsoft Logo">
+                </div>
+                <div class="logo-item">
+                    <img src="./slack.jpg" alt="Slack Logo">
+                </div>
+                <div class="logo-item">
+                    <img src="./google.jpg" alt="Google Logo">
+                </div>
+            </div>
+        </div>
+    </div>
+ <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-6">
+                    <div class="app-integration-graphic">
+
+                        <img src="./left.jpg" alt="Notion" class="center-img">
+
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6">
+                    <div class="hero-content">
+                        <h1>Work with Your<br>Favorite Apps Using<br>whitepace</h1>
+                        <p>Whitepace teams up with your favorite software. Integrate with over 1000+ apps with Zapier to
+                            have all the tools you need for your project success.</p>
+                        <a href="#" class="btn btn-primary">Read more <span>&rarr;</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><hr>
+        <section class="hero-section-1">
+        <div class="container text-center">
+            <h2 class=" fw-bold text-white">Try Whitepace<br>today</h2>
+            <p class="mt-3 mb-4 text-white ">Get started for free.<br>Add your whole team as your needs grow.</p>
+            <a href="#" class="btn btn-primary text-white mx-2 mt-2 butt-1">Try Taskey free <i class="fas fa-arrow-right ms-2"></i></a>
+            <p class="mt-4 text-white">On a big team? Contact sales</p>
+            <div class="platform-icons mt-4">
+                <img src="./apples.jpg" alt="Apple" class="platform-icon">
+                <img src="./window.jpg" alt="Windows" class="platform-icon">
+                <img src="./robot.jpg" alt="Android" class="platform-icon">
+            </div>
+        </div>
+    </section> <hr>
 
 
 
-    <script>
-        // window.alert('hello')
-        // alert('hello world')
-      
-        // firstname = 'ayesha' /*****
-        // rollno = 34
-        // document.getElementById('demo').innerHTML=firstname;
 
 
 
-    //   document.getElementById('demo').innerHTML= "<h2> hello world </h2>"
-     
+     <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Company Logo and Description -->
+                <div class="col-md-3">
+                    <div class="footer-brand">
+                        <div class="d-flex footer-1">
+                            <img  src="./logo.jpg" alt="Whitepace" class="mb-3 mx-2 mt-4">
+                            <p class="fw-bold mx-3 mt-4 foot-para">Whitepace</p> 
+                        </div>
+                        <p class="mx-2">whitepace was created for new <br> ways we live and work at home. <br> We make a better workspace</p>
+                    </div>
+                </div>
+
+                <!-- Product Column -->
+                <div class=" products col-md-3 mt-4">
+                    <h5>Product</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Overview</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Customer stories</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources Column -->
+                <div class=" resources col-md-2 mt-4 ">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Guides & tutorials</a></li>
+                        <li><a href="#">Help center</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company Column -->
+                <div class="col-md-2 mt-4">
+                    <h5>Company</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Media kit</a></li>
+                    </ul>
+                </div>
+
+                <!-- Try It Today Column -->
+                <div class="col-md-2 mt-4">
+                    <h5>Try It Today</h5>
+                    <p mx-2>Get started for free. Add your whole team as your needs grow.</p>
+                    <a href="#" class="btn btn-primary mx-1">Start today <i class="fas fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="bottom-footer mt-5">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-center">
+                            <div class="language-selector me-4">
+                                <i class="fas fa-globe me-2"></i> English <i class="fas fa-chevron-down ms-2"></i>
+                            </div>
+                            <a href="#" class="me-3">Terms & privacy</a>
+                            <a href="#" class="me-3">Security</a>
+                            <a href="#">Status</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <div class="d-flex justify-content-md-end">
+                            <p class="me-4">©2021 Whitepace LLC.</p>
+                            <div class="social-icons">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
-    //    let text="code"
-    //    for( let i=0;i<=3;i++){
-    //     console.log(text.charAt(i));
-    //    }
 
 
-    //    let text='hello'
-    //    console.log(text.charAt(0).toUpperCase())
-    //    console.log(text)
 
-    // var arr = [1,2,3,4,5]
-    //   arr.splice(2,1)
-    //     Console.log(arr)
 
-    //  let text1 = "hello?"
-    // let capitalize = text1[0].toUpperCase() + text1.slice(1)
-    // console.log(capitalize)
 
-    // let text1 ="HelloWorld"
-    // console.log(text1.slice(1,5))
 
-    // let text1 = "developer"
-    // console.log(text1.slice(5,9))
 
-//     let text = " JavaScript is fun to learn ";
-//     let text1=text.trim()
-//       console.log(text1.split(" ").length)
 
-// function word(para){
-// para1 = para.trim()
-// console.log(para.split(" ").length)
-//  }
-// para = "JavaScript is fun to learn"
-// word(para)
 
-// function text(string){
-// console.log(string.slice(5,9))
-// }
-// string="developer"
-// text(string)
 
-// let str = "code";
-// for (let char of str) {
-//   console.log(char);
-// }
 
-    </script>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
